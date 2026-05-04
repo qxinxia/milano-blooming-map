@@ -1,0 +1,116 @@
+/* ── Month transition: scale down → up ── */
+@keyframes monthScaleIn {
+  0%   { transform: scale(0.82); opacity: 0; }
+  60%  { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+@keyframes monthScaleOut {
+  0%   { transform: scale(1);    opacity: 1; }
+  100% { transform: scale(0.82); opacity: 0; }
+}
+
+/* Applied to the bloom layer wrapper during month transitions */
+.month-entering  { animation: monthScaleIn  0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.month-exiting   { animation: monthScaleOut 0.22s ease-in both; }
+
+/* ── Hover plant animations ── */
+
+/* Flower (spring/summer bloom) */
+@keyframes flowerBounce {
+  0%   { transform: scale(0)    rotate(-15deg); opacity: 0; }
+  55%  { transform: scale(1.35) rotate(5deg);   opacity: 1; }
+  75%  { transform: scale(0.9)  rotate(-3deg);  opacity: 1; }
+  100% { transform: scale(1)    rotate(0deg);   opacity: 1; }
+}
+@keyframes flowerSway {
+  0%, 100% { transform: scale(1) rotate(-4deg); }
+  50%       { transform: scale(1) rotate(4deg);  }
+}
+.anim-flower {
+  animation: flowerBounce 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+             flowerSway   2.4s ease-in-out 0.45s infinite;
+  display: inline-block;
+  transform-origin: bottom center;
+}
+
+/* Leaf (foliage) */
+@keyframes leafAppear {
+  0%   { transform: scale(0) rotate(-20deg); opacity: 0; }
+  70%  { transform: scale(1.15) rotate(5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg);   opacity: 1; }
+}
+@keyframes leafSway {
+  0%, 100% { transform: rotate(-5deg); }
+  50%       { transform: rotate(5deg);  }
+}
+.anim-leaf {
+  animation: leafAppear 0.35s ease-out both,
+             leafSway   3s ease-in-out 0.35s infinite;
+  display: inline-block;
+  transform-origin: bottom center;
+}
+
+/* Autumn (falling leaves) */
+@keyframes autumnAppear {
+  0%   { transform: translateY(-8px) rotate(-30deg) scale(0); opacity: 0; }
+  60%  { transform: translateY(4px)  rotate(10deg)  scale(1.1); opacity: 1; }
+  100% { transform: translateY(0)    rotate(0deg)   scale(1);   opacity: 1; }
+}
+@keyframes autumnDrift {
+  0%   { transform: rotate(-8deg) translateY(0); }
+  30%  { transform: rotate(6deg)  translateY(-3px); }
+  60%  { transform: rotate(-4deg) translateY(1px); }
+  100% { transform: rotate(-8deg) translateY(0); }
+}
+.anim-autumn {
+  animation: autumnAppear 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+             autumnDrift  2.8s ease-in-out 0.5s infinite;
+  display: inline-block;
+  transform-origin: center;
+}
+
+/* Winter (bare/subtle) */
+@keyframes bareAppear {
+  0%   { opacity: 0; transform: scale(0.6); }
+  100% { opacity: 0.7; transform: scale(1); }
+}
+@keyframes bareIdle {
+  0%, 100% { opacity: 0.7; }
+  50%       { opacity: 0.5; }
+}
+.anim-bare {
+  animation: bareAppear 0.3s ease-out both,
+             bareIdle   3s ease-in-out 0.3s infinite;
+  display: inline-block;
+}
+
+/* ── InfoBox entrance ── */
+@keyframes infoBoxIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0)    scale(1); }
+}
+.infobox-enter { animation: infoBoxIn 0.28s cubic-bezier(0.34, 1.2, 0.64, 1) both; }
+
+/* ── Legend expand ── */
+@keyframes legendExpand {
+  from { opacity: 0; transform: translateY(-6px) scaleY(0.94); }
+  to   { opacity: 1; transform: translateY(0)    scaleY(1); }
+}
+.legend-panel-enter { animation: legendExpand 0.22s ease-out both; }
+
+/* ── Species detail slide-in ── */
+@keyframes detailSlideIn {
+  from { opacity: 0; max-height: 0; }
+  to   { opacity: 1; max-height: 300px; }
+}
+.species-detail-enter {
+  animation: detailSlideIn 0.25s ease-out both;
+  overflow: hidden;
+}
+
+/* ── Pulse for "in bloom now" badge ── */
+@keyframes bloomBadgePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212, 132, 122, 0.4); }
+  50%       { box-shadow: 0 0 0 5px rgba(212, 132, 122, 0); }
+}
+.badge-bloom { animation: bloomBadgePulse 2.2s ease-in-out infinite; }

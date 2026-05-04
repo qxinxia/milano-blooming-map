@@ -1,0 +1,215 @@
+{
+  "_comment": "Bloom data for top species in Milan. bloom_months = 1-12. color = dominant bloom color hex.",
+  "genera": {
+    "Prunus": {
+      "common": "Cherry / Plum",
+      "bloom_months": [3, 4],
+      "color": "#FFB7C5",
+      "type": "tree",
+      "notes": "Includes cherry blossom, plum, almond. Early spring pink/white blooms."
+    },
+    "Magnolia": {
+      "common": "Magnolia",
+      "bloom_months": [3, 4],
+      "color": "#F2A6C8",
+      "type": "tree",
+      "notes": "Large showy flowers before leaves appear. March in Milan."
+    },
+    "Cercis": {
+      "common": "Judas Tree / Redbud",
+      "bloom_months": [3, 4],
+      "color": "#C2529E",
+      "type": "tree",
+      "notes": "Vivid pink-purple flowers directly on branches. Very common in Milan parks."
+    },
+    "Malus": {
+      "common": "Crabapple",
+      "bloom_months": [4, 5],
+      "color": "#FFAABB",
+      "type": "tree",
+      "notes": "Pink and white apple-family blossoms."
+    },
+    "Pyrus": {
+      "common": "Ornamental Pear",
+      "bloom_months": [3, 4],
+      "color": "#FFFFFF",
+      "type": "tree",
+      "notes": "White blossoms in early spring, often before leaves."
+    },
+    "Aesculus": {
+      "common": "Horse Chestnut",
+      "bloom_months": [4, 5],
+      "color": "#FFEEAA",
+      "type": "tree",
+      "notes": "Large white/pink candle-like flower spikes. Iconic spring tree."
+    },
+    "Robinia": {
+      "common": "Black Locust / Acacia",
+      "bloom_months": [5, 6],
+      "color": "#FFFFF0",
+      "type": "tree",
+      "notes": "Fragrant white pendulous flowers. Blooms May-June."
+    },
+    "Tilia": {
+      "common": "Linden / Lime Tree",
+      "bloom_months": [6, 7],
+      "color": "#E8F5A3",
+      "type": "tree",
+      "notes": "Small fragrant yellow-white flowers. Heavy honey fragrance in June-July."
+    },
+    "Sophora": {
+      "common": "Japanese Pagoda Tree",
+      "bloom_months": [7, 8],
+      "color": "#FFFDE7",
+      "type": "tree",
+      "notes": "Creamy white flowers in summer. Late-blooming street tree."
+    },
+    "Hibiscus": {
+      "common": "Hibiscus / Rose of Sharon",
+      "bloom_months": [7, 8, 9],
+      "color": "#FF6B9D",
+      "type": "shrub",
+      "notes": "Large colorful flowers. Summer through early autumn."
+    },
+    "Liriodendron": {
+      "common": "Tulip Tree",
+      "bloom_months": [5, 6],
+      "color": "#90EE90",
+      "type": "tree",
+      "notes": "Tulip-shaped green-orange flowers. Late spring."
+    },
+    "Acer": {
+      "common": "Maple",
+      "bloom_months": [3, 4],
+      "color": "#FFCC88",
+      "type": "tree",
+      "notes": "Small yellow-green flowers before leaves. Early spring."
+    },
+    "Gleditsia": {
+      "common": "Honey Locust",
+      "bloom_months": [5, 6],
+      "color": "#F5F5DC",
+      "type": "tree",
+      "notes": "Small fragrant yellowish flowers. Spring to early summer."
+    },
+    "Lagerstroemia": {
+      "common": "Crape Myrtle",
+      "bloom_months": [7, 8, 9],
+      "color": "#FF69B4",
+      "type": "tree",
+      "notes": "Vivid pink/purple flowers. Long summer bloom season."
+    },
+    "Jacaranda": {
+      "common": "Jacaranda",
+      "bloom_months": [5, 6],
+      "color": "#9370DB",
+      "type": "tree",
+      "notes": "Violet-blue flowers. Rare but present in sheltered Milan locations."
+    },
+    "Wisteria": {
+      "common": "Wisteria",
+      "bloom_months": [4, 5],
+      "color": "#C8A4DC",
+      "type": "vine",
+      "notes": "Cascading purple flower clusters. Classic Italian spring sight."
+    },
+    "Rosa": {
+      "common": "Rose",
+      "bloom_months": [5, 6, 7, 8, 9],
+      "color": "#FF5555",
+      "type": "shrub",
+      "notes": "Blooms spring through autumn depending on variety."
+    },
+    "Syringa": {
+      "common": "Lilac",
+      "bloom_months": [4, 5],
+      "color": "#B39DDB",
+      "type": "shrub",
+      "notes": "Fragrant purple/white flower clusters. April-May."
+    },
+    "Forsythia": {
+      "common": "Forsythia",
+      "bloom_months": [3, 4],
+      "color": "#FFD700",
+      "type": "shrub",
+      "notes": "Bright yellow flowers before leaves. One of first spring bloomers."
+    },
+    "Chaenomeles": {
+      "common": "Flowering Quince",
+      "bloom_months": [3, 4],
+      "color": "#FF6633",
+      "type": "shrub",
+      "notes": "Orange-red flowers. Very early spring."
+    },
+    "Cornus": {
+      "common": "Dogwood",
+      "bloom_months": [4, 5],
+      "color": "#FFFFFF",
+      "type": "tree",
+      "notes": "White bracts (flower-like). Spring flowering."
+    },
+    "Catalpa": {
+      "common": "Catalpa",
+      "bloom_months": [6, 7],
+      "color": "#FFFFFF",
+      "type": "tree",
+      "notes": "Large white orchid-like flowers in early summer."
+    },
+    "Paulownia": {
+      "common": "Empress Tree",
+      "bloom_months": [4, 5],
+      "color": "#B57EDC",
+      "type": "tree",
+      "notes": "Large lavender-purple flowers before leaves."
+    },
+    "Caragana": {
+      "common": "Siberian Pea Shrub",
+      "bloom_months": [5, 6],
+      "color": "#FFDD44",
+      "type": "shrub",
+      "notes": "Small yellow pea-like flowers."
+    },
+    "Tamarix": {
+      "common": "Tamarisk",
+      "bloom_months": [4, 5, 6],
+      "color": "#FFB6C1",
+      "type": "shrub",
+      "notes": "Feathery pink flower plumes. Long bloom season."
+    },
+    "Kolkwitzia": {
+      "common": "Beautybush",
+      "bloom_months": [5, 6],
+      "color": "#FFB0C8",
+      "type": "shrub",
+      "notes": "Pink tubular flowers. Late spring."
+    },
+    "Cydonia": {
+      "common": "Quince",
+      "bloom_months": [4, 5],
+      "color": "#FFB6C1",
+      "type": "tree",
+      "notes": "Pale pink flowers. Spring."
+    },
+    "Crataegus": {
+      "common": "Hawthorn",
+      "bloom_months": [4, 5],
+      "color": "#FFFFFF",
+      "type": "tree",
+      "notes": "White or pink flower clusters. Mid spring."
+    },
+    "Sambucus": {
+      "common": "Elder",
+      "bloom_months": [5, 6],
+      "color": "#FFFFFF",
+      "type": "shrub",
+      "notes": "Flat-topped white flower clusters. Late spring."
+    },
+    "Spiraea": {
+      "common": "Spirea",
+      "bloom_months": [4, 5],
+      "color": "#FFFFFF",
+      "type": "shrub",
+      "notes": "Small white or pink flowers in dense clusters."
+    }
+  }
+}

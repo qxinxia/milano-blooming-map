@@ -1,0 +1,33 @@
+# Raw / large data files
+ds2484_alberi_20240331.geojson
+data/raw/
+
+# Duplicate GeoJSON (canonical copy is frontend/public/milan_blooming.geojson)
+data/processed/milan_blooming.geojson
+frontend/src/data/milan_blooming.geojson
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
