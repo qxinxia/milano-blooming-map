@@ -73,17 +73,16 @@ export default function Map({ month, geojson, onInfoBox, infoBoxPinned }) {
         version: 8,
         glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
         sources: {
-          carto: {
+          osm: {
             type: 'raster',
             tiles: [
-              'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png',
-              'https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png',
+              'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
             ],
             tileSize: 256,
-            attribution: '© CartoDB · © OpenStreetMap contributors',
+            attribution: '© OpenStreetMap contributors',
           },
         },
-        layers: [{ id: 'carto-tiles', type: 'raster', source: 'carto',
+        layers: [{ id: 'osm-tiles', type: 'raster', source: 'osm',
           paint: { 'raster-saturation': -0.4, 'raster-brightness-max': 1.0 } }],
       },
       center: [9.19, 45.464],
