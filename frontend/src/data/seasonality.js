@@ -246,45 +246,67 @@ export const SPECIES_DATA = {
 
 // Lookup: common_name from GeoJSON → SPECIES_DATA key (genus)
 export const COMMON_NAME_TO_GENUS = {
+  // Prunus — cherry & plum
   'Cherry': 'Prunus',
   'Cherry Blossom': 'Prunus',
+  'Cherry / Plum': 'Prunus',
   'Japanese Cherry': 'Prunus',
   'Yoshino Cherry': 'Prunus',
   'Plum': 'Prunus',
   'Sweet Cherry': 'Prunus',
   'Bird Cherry': 'Prunus',
+  // Magnolia
   'Magnolia': 'Magnolia',
   'Saucer Magnolia': 'Magnolia',
   'Bull Bay Magnolia': 'Magnolia',
+  // Cercis — judas tree
   'Judas Tree': 'Cercis',
+  'Judas Tree / Redbud': 'Cercis',
   'Redbud': 'Cercis',
+  // Malus — crabapple
   'Crabapple': 'Malus',
   'Apple': 'Malus',
   'Ornamental Apple': 'Malus',
+  'Ornamental Pear': 'Malus',
+  // Aesculus — horse chestnut
   'Horse Chestnut': 'Aesculus',
   'Buckeye': 'Aesculus',
   'Red Horse Chestnut': 'Aesculus',
+  // Wisteria
   'Wisteria': 'Wisteria',
   'Chinese Wisteria': 'Wisteria',
   'Japanese Wisteria': 'Wisteria',
+  // Syringa — lilac
   'Lilac': 'Syringa',
+  // Forsythia
   'Forsythia': 'Forsythia',
+  // Robinia — black locust
   'Black Locust': 'Robinia',
+  'Black Locust / Acacia': 'Robinia',
   'Acacia': 'Robinia',
   'False Acacia': 'Robinia',
+  'Honey Locust': 'Robinia',
+  // Rosa
   'Rose': 'Rosa',
   'Heritage Rose': 'Rosa',
   'Climbing Rose': 'Rosa',
+  // Tilia — linden / lime
   'Linden': 'Tilia',
+  'Linden / Lime Tree': 'Tilia',
   'Lime': 'Tilia',
   'Small-leaved Lime': 'Tilia',
   'Large-leaved Lime': 'Tilia',
   'Linden Tree': 'Tilia',
+  // Jacaranda
   'Jacaranda': 'Jacaranda',
+  // Lagerstroemia — crape myrtle
   'Crape Myrtle': 'Lagerstroemia',
   'Lagerstroemia': 'Lagerstroemia',
+  // Catalpa
   'Catalpa': 'Catalpa',
+  // Crataegus — hawthorn
   'Hawthorn': 'Crataegus',
+  // Acer — maple
   'Maple': 'Acer',
   'Norway Maple': 'Acer',
   'Field Maple': 'Acer',

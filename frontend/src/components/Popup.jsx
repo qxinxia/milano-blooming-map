@@ -49,16 +49,15 @@ export default function Popup({ spot, month, variant, pos, onClose }) {
   }
 
   if (variant === 'botanical') {
-    const petals = 8
     return (
       <div className="popup" style={style}>
         <button className="popup-close" onClick={onClose}>✕</button>
-        <div className="popup-illus" style={{ background: `linear-gradient(135deg, ${c.ripple}, ${c.dot}28)` }}>
+        <div className="popup-illus" style={{ background: `linear-gradient(135deg, ${c.ripple}, ${c.dot}18)` }}>
           <svg width="80" height="80" viewBox="0 0 80 80">
-            {Array.from({ length: petals }, (_, i) => (
+            {Array.from({ length: 8 }, (_, i) => (
               <ellipse key={i} cx="40" cy="22" rx="7" ry="16"
                 fill={c.dot} opacity="0.72"
-                transform={`rotate(${i * (360/petals)} 40 40)`} />
+                transform={`rotate(${i * 45} 40 40)`} />
             ))}
             <circle cx="40" cy="40" r="9" fill={c.ripple} />
             <circle cx="40" cy="40" r="4.5" fill={c.dot} opacity="0.9" />

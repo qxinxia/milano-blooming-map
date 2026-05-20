@@ -66,7 +66,7 @@ export function useHexLayer(hexGroups) {
 
       const monthCounts = JSON.stringify(
         Array.from({ length: 12 }, (_, m) =>
-          props.filter(p => Array.isArray(p.bloom_months) && p.bloom_months.includes(m)).length
+          props.filter(p => Array.isArray(p.bloom_months) && p.bloom_months.includes(m + 1)).length
         )
       )
 
@@ -97,7 +97,7 @@ export function useBloomDots(hexGroups, month) {
     for (const [cellId, props] of Object.entries(hexGroups)) {
       const blooming = props.filter(p =>
         !isMaple(p) &&
-        Array.isArray(p.bloom_months) && p.bloom_months.includes(month)
+        Array.isArray(p.bloom_months) && p.bloom_months.includes(month + 1)
       )
       if (blooming.length === 0) continue
 
@@ -152,7 +152,7 @@ export function useBloomHotspots(hexGroups, month) {
     for (const [cellId, props] of Object.entries(hexGroups)) {
       const blooming = props.filter(p =>
         !isMaple(p) &&
-        Array.isArray(p.bloom_months) && p.bloom_months.includes(month)
+        Array.isArray(p.bloom_months) && p.bloom_months.includes(month + 1)
       )
       if (blooming.length === 0) continue
 
@@ -188,7 +188,7 @@ export function useBloomHotspots(hexGroups, month) {
       // Month-by-month bloom counts for bloom bar (12 values, 0-indexed)
       const monthCounts = JSON.stringify(
         Array.from({ length: 12 }, (_, m) =>
-          props.filter(p => Array.isArray(p.bloom_months) && p.bloom_months.includes(m)).length
+          props.filter(p => Array.isArray(p.bloom_months) && p.bloom_months.includes(m + 1)).length
         )
       )
 

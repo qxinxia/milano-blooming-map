@@ -63,20 +63,15 @@ export default function InfoBox({ info, month, onClose, onPin }) {
         fontFamily: 'DM Sans, sans-serif',
       }}
     >
-      {/* ── Required image ───────────────────────────────────────────── */}
+      {/* ── Illustration header ───────────────────────────────────────── */}
       {topImage ? (
         <div style={{ width: '100%', height: 110, overflow: 'hidden', position: 'relative', flexShrink: 0 }}>
-          <img
-            src={topImage}
-            alt={topName}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-            onError={e => { e.target.parentElement.style.background = 'rgba(122,158,126,0.15)'; e.target.style.display = 'none' }}
-          />
-          {/* Season badge overlaid on image */}
+          <img src={topImage} alt={topName}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
           <div style={{
             position: 'absolute', bottom: 8, left: 10,
             padding: '3px 9px', borderRadius: 20,
-            background: bloomNow ? 'rgba(212,132,122,0.9)' : 'rgba(42,34,24,0.55)',
+            background: bloomNow ? 'rgba(212,132,122,0.9)' : 'rgba(42,34,24,0.5)',
             color: '#fff',
             fontSize: 10, fontWeight: 500, letterSpacing: '0.8px',
             backdropFilter: 'blur(6px)',

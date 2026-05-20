@@ -29,8 +29,7 @@ function SpeciesDetail({ genus, onClose }) {
     <div className="species-detail legend-panel-enter" style={{ marginTop: 8 }}>
       {sp.image && (
         <div style={{ width: '100%', height: 80, borderRadius: 8, overflow: 'hidden', marginBottom: 8 }}>
-          <img
-            src={sp.image} alt={sp.common}
+          <img src={sp.image} alt={sp.common}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
             onError={e => { e.target.style.display = 'none' }}
           />
