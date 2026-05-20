@@ -1,0 +1,31 @@
+﻿#,Genus,Common Name,Type,Bloom Months,Color Hex,Notes
+1,Prunus,Cherry / Plum,tree,"3,4",#FFB7C5,"Includes cherry blossom, plum, almond. Early spring pink/white blooms."
+2,Magnolia,Magnolia,tree,"3,4",#F2A6C8,Large showy flowers before leaves appear. March in Milan.
+3,Cercis,Judas Tree / Redbud,tree,"3,4",#C2529E,Vivid pink-purple flowers directly on branches. Very common in Milan parks.
+4,Malus,Crabapple,tree,"4,5",#FFAABB,Pink and white apple-family blossoms.
+5,Pyrus,Ornamental Pear,tree,"3,4",#FFFFFF,"White blossoms in early spring, often before leaves."
+6,Aesculus,Horse Chestnut,tree,"4,5",#FFEEAA,Large white/pink candle-like flower spikes. Iconic spring tree.
+7,Robinia,Black Locust / Acacia,tree,"5,6",#FFFFF0,Fragrant white pendulous flowers. Blooms May-June.
+8,Tilia,Linden / Lime Tree,tree,"6,7",#E8F5A3,Small fragrant yellow-white flowers. Heavy honey fragrance in June-July.
+9,Sophora,Japanese Pagoda Tree,tree,"7,8",#FFFDE7,Creamy white flowers in summer. Late-blooming street tree.
+10,Hibiscus,Hibiscus / Rose of Sharon,shrub,"7,8,9",#FF6B9D,Large colorful flowers. Summer through early autumn.
+11,Liriodendron,Tulip Tree,tree,"5,6",#90EE90,Tulip-shaped green-orange flowers. Late spring.
+12,Acer,Maple,tree,"3,4",#FFCC88,Small yellow-green flowers before leaves. Early spring.
+13,Gleditsia,Honey Locust,tree,"5,6",#F5F5DC,Small fragrant yellowish flowers. Spring to early summer.
+14,Lagerstroemia,Crape Myrtle,tree,"7,8,9",#FF69B4,Vivid pink/purple flowers. Long summer bloom season.
+15,Jacaranda,Jacaranda,tree,"5,6",#9370DB,Violet-blue flowers. Rare but present in sheltered Milan locations.
+16,Wisteria,Wisteria,vine,"4,5",#C8A4DC,Cascading purple flower clusters. Classic Italian spring sight.
+17,Rosa,Rose,shrub,"5,6,7,8,9",#FF5555,Blooms spring through autumn depending on variety.
+18,Syringa,Lilac,shrub,"4,5",#B39DDB,Fragrant purple/white flower clusters. April-May.
+19,Forsythia,Forsythia,shrub,"3,4",#FFD700,Bright yellow flowers before leaves. One of first spring bloomers.
+20,Chaenomeles,Flowering Quince,shrub,"3,4",#FF6633,Orange-red flowers. Very early spring.
+21,Cornus,Dogwood,tree,"4,5",#FFFFFF,White bracts (flower-like). Spring flowering.
+22,Catalpa,Catalpa,tree,"6,7",#FFFFFF,Large white orchid-like flowers in early summer.
+23,Paulownia,Empress Tree,tree,"4,5",#B57EDC,Large lavender-purple flowers before leaves.
+24,Caragana,Siberian Pea Shrub,shrub,"5,6",#FFDD44,Small yellow pea-like flowers.
+25,Tamarix,Tamarisk,shrub,"4,5,6",#FFB6C1,Feathery pink flower plumes. Long bloom season.
+26,Kolkwitzia,Beautybush,shrub,"5,6",#FFB0C8,Pink tubular flowers. Late spring.
+27,Cydonia,Quince,tree,"4,5",#FFB6C1,Pale pink flowers. Spring.
+28,Crataegus,Hawthorn,tree,"4,5",#FFFFFF,White or pink flower clusters. Mid spring.
+29,Sambucus,Elder,shrub,"5,6",#FFFFFF,Flat-topped white flower clusters. Late spring.
+30,Spiraea,Spirea,shrub,"4,5",#FFFFFF,Small white or pink flowers in dense clusters.

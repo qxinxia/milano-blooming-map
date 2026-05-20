@@ -8,6 +8,8 @@ frontend/src/data/milan_blooming.geojson
 
 # Claude Code local settings
 .claude/settings.local.json
+.claude/worktrees/
+i-want-to-do-lazy-zebra.md
 
 # Frontend dependencies and build output
 frontend/node_modules/
